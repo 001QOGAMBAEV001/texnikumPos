@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const mongoose = require('mongoose');
 const XLSX = require('xlsx');
 
-const token = '7487276376:AAFvlxsD6mkw_lVRToyuB4VZlFX4kHcAf24';
+const token = '6437581102:AAEC-f0gOsI-mIGyK0dH2vnVBBIAYIgXwm0';
 const bot = new TelegramBot(token, { polling: true });
 
 mongoose.connect('mongodb://localhost:27017/telegram_bot')
